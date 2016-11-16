@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
+  <script src="script.js"></script>
+  <title>Trivia_Game</title>
+</head>
+<body>
+
+  <header>
+   <div id="gameNameContainer">
+   <div class="gameName set1">T</div>
+   <div class="gameName set2">R</div>
+   <div class="gameName set1">I</div>
+   <div class="gameName set2">V</div>
+   <div class="gameName set1">I</div>
+   <div class="gameName set2">A</div>
+   </div>
+  </header>
+
+   <p id="intro">Welcome to Trivia, where your knowledge of the trivial actually matters! <br/>
+        Earn as many points as you can.Each correct answer is worth 100pts</p>
+        <h2> Pick a Category to Begin </h2>
+
+    <div id="category_box" >
+      <div id="enews"class="categories" >Entertainment</div>
+      <div id="geo" class="categories">Geography</div>
+      <div id="stem" class="categories"> Science/Technology </div>
+  </div>
+
+     <p id="category"class="content"></p>
+     <p id="point" class="content"></p>
+
+
+  <div id="gamebox">
+  <div id="question_container">
+       <p id="question"></p>
+        <button id="next_button">Next</button>
+  </div>
+
+    <div class="letter">A</div>
+    <div id="a" class="options"></div>
+
+    <div class="letter">B</div>
+    <div id="b" class="options"></div>
+
+    <div class="letter">C</div>
+    <div id="c" class="options"></div>
+
+    <div class="letter">D</div>
+    <div id="d" class="options"></div>
+  </div>
+
+
+</body>
+</html>
