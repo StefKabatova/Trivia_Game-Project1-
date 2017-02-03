@@ -35,7 +35,7 @@ $(document).ready(function(){
   ]
 
   let geo_data = [{
-    question: "What is the largest island in the Mediterranean",
+    question: "What is the largest island in the Mediterranean?",
     choices: ["Sicily","Corsia", "Crete", "Cyprus"],
     answer: "Sicily"
   },{
@@ -100,6 +100,7 @@ $(document).ready(function(){
       gamebox.delay(500).hide("slow")
       next.text("Next")
       category_options.show("slow")
+      points= 0;
     }
   }
 
